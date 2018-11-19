@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+.mbx{
+    width:960px;
+	height:42px;
+	background:url(../images/neiye_title_bg.png);
+	line-height:42px;
+	font-family:"微软雅黑";
+	font-size:16px;
+
+}
+.mbx b{
+    background:url(../images/title_home.png) no-repeat 5px center;
+	text-indent:30px;
+	display:block;
+	float:left;
+}
+.list{
+    width:960px;
+	height:163px;
+	padding-bottom:10px;
+	margin-top:15px;
+	border-bottom:1px dashed #cccccc;
+
+}
+.list:nth-last-of-type(2){
+	border-bottom:none;
+}
+.list_left{
+    float:left;
+    width:276px;
+	height:163px;	
+}
+.list_right{
+    float:right;
+    width:675px;
+	height:163px;	
+    position:relative;	
+}
+.list_right h2 a{
+	line-height:2em;
+	font-size:16px;
+}
+.list_right p{
+    text-indent:2em;
+	line-height:2em;
+}
+.list_right .xiangxi{
+    width:93px;
+	height:23px;
+    position:absolute;
+	left:0;
+	bottom:0;
+}
+.list_right .xiangxi a{
+	color:#ffffff;
+	line-height:23px;
+	background:url(../images/xiangxi_bg.png);
+	width:93px;
+	height:23px;
+	display:block;
+	text-indent:15px;
+}
+.list_right .xiangxi a:hover{
+	background:url(../images/xiangxi_bg.png) no-repeat left bottom;
+}
+.list_right .list_time{
+    position:absolute;
+	right:0;
+	top:8px;
+	color:#7c818f;
+}
+.dede_pages{
+    margin:20px 0;
+}
+.pagelist{
+    text-align:center;
+}
+.pagelist li{
+    display:inline;
+    padding:5px 0;	
+}
+.pagelist li a{ 
+
+     padding:5px 10px;
+	border:1px solid #7c7c7c;
+
+}
+
+.thisclass{
+    color:#ffffff;
+    background:#0f75bd;
+}
+.thisclass a{
+    color:#ffffff;
+}
+
+.art_title{
+    font-size:24px;
+	line-height:2em;
+	font-family:"微软雅黑";
+	text-align:center;
+	border-bottom:1px dashed #cccccc;
+	margin-top:10px;
+}
+.art_lep{
+    color:#919191;
+	text-align:center;
+	line-height:2em;
+	margin-bottom:10px;
+}
+.art_content{
+    text-indent:2em;
+	line-height:2em;
+	padding:5px 10px;
+	
+}
+
+.pre_next{
+    line-height:2em;
+	margin:10px 10px;
+}
